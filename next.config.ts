@@ -1,7 +1,6 @@
 import type { NextConfig } from 'next'
 
-const basePath = '/si-education';
-// const basePath = process.env.NODE_ENV === 'production' ? '/si-education' : ''
+const basePath = '';
 
 const nextConfig: NextConfig = {
     /* config options here */
