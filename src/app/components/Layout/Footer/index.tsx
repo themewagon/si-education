@@ -136,7 +136,7 @@ const Footer = () => {
                         target='_blank'
                         className='hover:text-white'>
                         {' '}
-                        GetNextJs Templates.com
+                        GetNextJs Templates.com {' '}
                     </Link>
                     • Distributed by{' '}
                     <Link
