@@ -43,7 +43,8 @@ const Footer = () => {
                         </p>
                         <div className='flex gap-4'>
                             <Link
-                                href='/'
+                                href='#!'
+                                scroll={false}
                                 className='bg-white/20 rounded-full p-2 text-white hover:bg-cream hover:text-primary duration-300'>
                                 <Icon
                                     icon='tabler:brand-instagram'
@@ -52,6 +53,7 @@ const Footer = () => {
                             </Link>
                             <Link
                                 href='/'
+                                scroll={false}
                                 className='bg-white/20 rounded-full p-2 text-white hover:bg-cream hover:text-primary duration-300'>
                                 <Icon
                                     icon='tabler:brand-dribbble'
@@ -60,6 +62,7 @@ const Footer = () => {
                             </Link>
                             <Link
                                 href='/'
+                                scroll={false}
                                 className='bg-white/20 rounded-full p-2 text-white hover:bg-cream hover:text-primary duration-300'>
                                 <Icon
                                     icon='tabler:brand-twitter-filled'
@@ -68,6 +71,7 @@ const Footer = () => {
                             </Link>
                             <Link
                                 href='/'
+                                scroll={false}
                                 className='bg-white/20 rounded-full p-2 text-white hover:bg-cream hover:text-primary duration-300'>
                                 <Icon
                                     icon='tabler:brand-youtube-filled'
@@ -90,6 +94,7 @@ const Footer = () => {
                                             <li key={i} className='mb-3'>
                                                 <Link
                                                     href={item.href}
+                                                    scroll={item.href !== "/"}
                                                     className='text-white/60 hover:text-white text-sm font-normal mb-6'>
                                                     {item.label}
                                                 </Link>

@@ -1,6 +1,6 @@
 import type { NextConfig } from 'next'
 
-const basePath = '';
+const basePath = '/si-education';
 
 const nextConfig: NextConfig = {
     /* config options here */

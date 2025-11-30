@@ -78,7 +78,7 @@ const Testimonial = () => {
                         : testimonial.map((items, i) => (
                             <div key={i}>
                                 <div className='bg-white m-4 pt-8 px-12 pb-10 text-center rounded-lg'>
-                                    <div className={"relative z-0 flex justify-center items-center before:absolute before:bg-[url('" + withBasePath('/images/testimonial/greenpic.svg') + "')] before:h-6 before:w-6 before:bottom-0 before:z-10 before:left-54%"}>
+                                    <div className={"relative z-0 flex justify-center items-center before:absolute before:bg-[url('/images/testimonial/greenpic.svg')] before:h-6 before:w-6 before:bottom-0 before:z-10 before:left-54%"}>
                                         <Image
                                             src={withBasePath(items.imgSrc)}
                                             alt='gaby'
